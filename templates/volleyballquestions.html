@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <link rel="icon" href="https://i.pinimg.com/originals/22/1d/ce/221dce31f7a7cd3a3862853c50a30ba7.jpg">
+        <title>L.A blogs - Questions</title>
+        <link rel="stylesheet" href="{{url_for('static',filename='volleyball.css') }}">
+    </head>
+    <body>
+        <div class="navbar">
+            <input onclick='myFunction()' type="checkbox" name="okay" id="okay">
+            <a href='/home'><img id='logo' src="https://scontent.fnbo10-1.fna.fbcdn.net/v/t1.18169-1/p148x148/15894819_1226812847355602_7091548223827855265_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=1eb0c7&_nc_ohc=JxRCFxdE9foAX9dJv_b&_nc_ht=scontent.fnbo10-1.fna&oh=f6d245fcbfcf07d21378c711c496b521&oe=616A475D" alt="light academy logo"></a>
+            <label  for='okay' ><img  id='menu' src="data:image/png;base64,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" alt=""></label>
+            <div class='ulll' id="ulll">
+            <ul>
+                <li> <a href="/home">Home</a></li>
+                <li><a  onclick='windows()'  href='#about'>about us  </a></li>
+                <li><a  onclick='windows()'  href='#about'>Contact us</a></li>
+                         <div class="list">
+                    <li><a href="/leaderboardfootball">  leaderboard for football</a></li>
+                    <li><a href="/leaderboardbasketball">leaderboard for basketball</a></li>
+                    <li><a href="/leaderboardvolleyball">leaderboard for volleyball</a></li>
+                        </div>
+            </ul>
+            </div>
+        </div>
+        <div class="questions">
+            <form method = post >
+
+                <div  class="question1">
+                    <h1>1.      Who is the Best Left Attacker in Form3</h1>
+                    <div class="answers">
+                        <input required id='leftattacker1' type="radio" value='Hosea' name='leftattacker' > <label for="leftattacker1">David Hosea</label> <br>
+                        <input required id='leftattacker2' type='radio' value='Abdulsamad' name='leftattacker'> <label for= "leftattacker2">Abdulsamad Abdikadir</label> <br>
+                        <input required id='leftattacker3' type="radio" value='achuu'  name='leftattacker' > <label for="leftattacker3">Abubakar "achuu"</label> <br>
+                    </div>
+                </div>
+                <div  class="question1">
+                    <h1>1.      Who is the Best Central Attacker in Form3</h1>
+                    <div class="answers">
+                        <input required id='centralattacker1' type="radio" value='Galgallo'     name='centralattacker' > <label for="centralattacker1">Galgallo</label> <br>
+                        <input required id='centralattacker2' type='radio' value='Issa' name='centralattacker'> <label for= "centralattacker2">Issa Ali</label> <br>
+                        <input required id='centralattacker3' type="radio" value='Liban' name='centralattacker' > <label for="centralattacker3">Argata</label> <br>
+                    </div>
+                </div>  <!-- Adjust only the "unknown1","unknown2" and "unknown3" with actualy names -->
+                <div  class="question1">
+                    <h1>1.      Who is the Best Right Attacker in Form3</h1>
+                    <div class="answers">
+                        <input required id='rightattacker1' type="radio" value='andy' name='rightattacker' >   <label for="rightattacker1">Andy Stevens</label> <br>
+                        <input required id='rightattacker2' type='radio' value='abisai' name='rightattacker'> <label for= "rightattacker2">Walter Abisai</label> <br>
+                        <input required id='rightattacker3' type="radio" value='imran'  name='rightattacker' > <label for="rightattacker3">imran</label> <br>
+                    </div>
+                </div>
+                <div  class="question1">
+                    <h1>1.      Who is the Best setter in Form3</h1>
+                    <div class="answers">
+                        <input required id='setter1' type="radio" value='abdulkhaliq' name='setter' > <label for="setter1">Abdulkhaliq</label> <br>
+                        <input required id='setter2' type='radio' value='juma' name='setter'>         <label for="setter2">Juma</label> <br>
+                        <input required id='setter3' type="radio" value='Hamza Ahmed' name='setter' >       <label for="setter3">Hamza "roro"</label> <br>
+                    </div>
+                </div>
+                <div  class="question1">
+                    <h1>1.      Who is the Best libero in Form3</h1>
+                    <div class="answers">
+                        <input required id='libero1' type="radio" value='hamza jr' name='libero' > <label for="libero1">Hamza Jr</label> <br>
+                        <input required id='libero2' type='radio' value='hashim' name='libero'> <label for= "libero2">hashim</label> <br>
+                        <input required id='libero3' type="radio" value='marwa' name='libero' > <label for="libero3">liroy Marwa</label> <br>
+                    </div>
+                </div>
+
+
+
+
+            <input id='submit' class='submit' type="submit" value='submit' >
+        </form>
+        </div>
+
+        <div  id="about">
+            <h3>ABOUT</h3>
+            <p> This Website is about The Students of the  schools of Light Academy 8-4-4 who would love to see each other compete and select their best representatives among themselves</p>
+
+            <BR><p>CAUTION!:Repeating the task Overdoes your name and your inputs...</p><BR>
+
+            <h5>contact us at:Light Academy schools</h5>
+            <h5>or at @Lightacademyboyssec on instagram</h5>
+            <a target="_blank"  href="https://www.instagram.com/lightacademyboyssec/"><img id='instagram' src="data:image/jpeg;base64,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f3mCIiUpBERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERABERAH//Z" alt=""></a>
+            <a target="_blank"  href="https://api.whatsapp.com/send/?phone=0759274504"><img id='whatsapp' src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt=""></a>
+        </div>
+
+                <script>
+                    function windows(){
+                        alert('close the Menu to see the about');
+                    }
+            function myFunction() {
+                var okay=document.getElementById('okay');
+                var x = document.getElementsByTagName('ul')[0];
+
+                if(okay.checked==true){
+                    x.style.left='-10%';
+                }else{
+                    x.style.left = '-200%';
+                }
+
+            }
+            </script>
+
+    </body>
+</html>

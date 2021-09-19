@@ -1,0 +1,370 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:0;
+    margin:0;
+}
+table{
+    margin-left:20%;
+    border:1px solid black;
+}
+table tr td,th{
+    border-top: solid 1px black;
+    border-right:solid 1px black;
+}
+.navbar a{
+    color:black;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color:white;
+}
+.navbar ul{
+    list-style: none;
+    float:right;
+    position:absolute;
+    top:0;
+    right:0;
+    margin-top:2.5%;
+    margin-right:1cm;
+}
+.navbar ul li{
+    display: inline-block;
+    font-size:150%;
+    border-radius:10px;
+    margin:0 20px;
+    transition:0.5s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.navbar{
+    padding:0.25cm;
+    background: rgb(36, 177, 212);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar img{
+    border-radius: .5cm;
+    margin-left:0.5cm;
+    transition: 1s;
+}
+
+.navbar ul li:hover{
+    padding:10px;
+    background:darkblue;
+    color:white;
+    position:relative;
+    margin:0;
+    cursor:pointer;
+}
+
+.navbar img:hover{
+    filter:invert(100);
+    cursor: pointer;
+}
+
+
+.header h1{
+    text-align: center;
+
+}
+.header{
+    margin-left: 1cm;
+}
+.header p{
+    font-size: 0.5cm;
+}
+.content{
+    margin-left:5cm;
+    margin-top:1cm;
+    font-size: 0.75cm;
+}
+.content form{
+    border:solid 3px rgb(19, 196, 128);
+    border-radius:1cm;
+    padding:0.5cm;
+    width:50%;
+}
+
+
+.content select{
+    border-radius: 1cm;
+    background: lightblue;
+    padding:0.2cm;
+    font-size: 0.5cm;
+}
+.content select:hover{
+    background: lightseagreen;
+}
+.list{
+    position:absolute;
+    float:right;
+    padding:1%;
+}
+.list li{
+    margin:10%;
+}
+
+#f123{
+    color:blue;
+}
+#f12345{
+    color:red;
+}
+#f12345678{
+    color:yellow;
+}
+.category{
+    margin-top:0.5cm;
+    margin-bottom:0.5cm;
+}
+#category{
+    font-size:70%;
+}
+.class{
+    margin-top:0.5cm;
+}
+.submit,.next{
+    text-align: center;
+    font-size: 1cm;
+    margin: 0% 0 0 30%;
+    transition:1s;
+    border-radius: 10px;
+    border:solid 1px rgb(0, 0, 0);
+
+}
+
+.content {
+    border-radius: 1cm;
+}
+.submit:hover{
+    padding:10px;
+    color:white;
+    background:black
+}
+
+.next:hover{
+    padding:10px;
+    color:white;
+    background:black
+}
+
+::placeholder{
+    font-size:0.5cm;
+}
+.content form #name{
+    padding:10px;
+    border-radius: 1cm;
+    width:60%;
+    transition: 1s;
+}
+
+.content form #name:hover{
+    background:cyan;
+    width:75%;
+    padding:15px;
+}
+.answers{
+    margin-top:1cm;
+    padding:1cm;
+    background:linear-gradient(white,rgb(46, 124, 189));
+    text-align:center;
+    }
+.answers label{
+    font-size: 1cm;
+    background:cyan;
+    padding:0.1cm 1cm 0.1cm 1cm ;
+    border-radius: 1cm;
+    transition:0.5s;
+}
+.answers input{
+    margin:0.5cm;
+}
+.answers label:hover{
+    background:darkmagenta;
+    padding-right:3cm;
+    padding-left:1cm;
+}
+#logo{
+
+    width:15%;
+}
+#menu{
+    border-radius: 10cm;
+    padding:0;
+    width:10%;
+    float:right;
+    display:none;
+}
+#okay{
+    display:none;
+}
+#instagram , #whatsapp{
+    width:5%;
+    margin-left:10%;
+    position:relative;
+    top:0;
+    border-radius:1cm;
+}
+#about{
+    color:orange;
+    background:black;
+    width:100%;
+}
+
+#dddd{
+    width:100%;
+}
+#iicdm3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#about h5,p{
+    margin-left:1cm;
+}
+#about h3{
+    text-align:center;
+    margin-top:1cm;
+}
+.leaderboard h1{
+    margin-left:1cm;
+}
+td{
+    width:010%;
+    text-align:center;
+}
+th{
+    background:linear-gradient(white,rgb(40, 140, 165));
+}
+table{
+    margin-left: 1cm;
+    background:radial-gradient(white,cyan)
+}
+.player{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    padding:0.5cm 0 0 0;
+}
+
+@media (max-width:1250px){
+    .navbar ul{
+        margin:2% 2%;
+    }
+}
+@media(max-width:1000px){
+
+        .answers label {
+        font-size:2cm;
+        margin:cm;
+    }
+    .question1 h1{
+        font-size:2cm;
+    }
+
+    .answers input{
+        margin:1.5cm;
+
+    }
+    .navbar{
+        padding-bottom: 1cm;
+    }
+    .navbar a img{
+        width:30%;
+        border-radius: 100cm;;
+    }
+    .submit,.next{
+        text-align: center;
+        font-size: 1cm;
+        margin: 0% 0 0 30%;
+        transition:1s;
+        border-radius: 10px;
+        border:solid 1px rgb(0, 0, 0);
+        padding:1cm;
+        padding-right:2cm;
+        font-weight: 700;
+    }
+    #dddd{
+        width:80%;
+    }
+    table{
+        margin-left: 0;
+        font-size:1cm;
+    }
+    td{
+        width:10%;
+        text-align: center;
+    }
+    #menu{
+        display:block;
+        float:right;
+        right:0;
+        top:20;
+        position:fixed;
+
+    }
+    .navbar ul{
+        position:fixed;
+        background:#0099ff;
+        margin-left:10%;
+        width:100%;
+        height:100vh;
+        left:-200%;
+        transition:1s;
+        border-radius:0.5cm;
+        top:8.3cm;
+        padding-top:6cm;
+    }
+
+    .navbar ul li{
+        display:block;
+        padding:0 0% 2.5% 0;
+        text-align: center;
+        font-size:2cm;
+        border-bottom: solid 10px rgb(56, 202, 247);
+        width:50%;
+        margin-left:20%;
+    }
+    .content{
+        width:100%;
+        margin:0;
+        padding:0;
+    }
+    .content form{
+        width:90%;
+        margin:0;
+    }
+    .content form input::placeholder{
+        font-size:1.5cm;
+    }
+    .content form #name{
+        padding:1cm;
+        border:solid 1px blue;
+        background: rgb(140, 228, 228);
+        width:100%;
+    }
+    .content form input{
+        font-size:1.5cm;
+        margin-bottom:1cm;
+        font-size:1.5cm;
+        margin-bottom:1cm;
+        transition:1s;
+    }
+    .content label{
+        margin-left:2cm;
+    }
+    #form{
+        font-size:1.5cm;
+        margin-bottom:1cm;
+        transition: 1s;
+    }
+    .content form{
+        font-size:1.5cm;
+    }
+    .content h3{
+        text-align: center;
+        border-bottom: solid 3px rgb(2, 150, 150);
+        width:90%;
+        margin-left:10%;
+        font-size:2cm;
+    }
+
+
+
+}
