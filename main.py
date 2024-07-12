@@ -4,15 +4,11 @@ app=Flask(__name__)
 
 mydb=MySQL(app)
 
-"""app.config['MYSQL_HOST']='LightAcademy.mysql.pythonanywhere-services.com'
-app.config['MYSQL_USER']='LightAcademy'
-app.config['MYSQL_PASSWORD']='KCDndogariyetu'
-app.config['MYSQL_DB']='LightAcademy$default'"""
 
-app.config['MYSQL_HOST']='localhost'
-app.config['MYSQL_USER']='root'
-app.config['MYSQL_PASSWORD']='GALGALLO10'
-app.config['MYSQL_DB']='FOOTBALL'
+app.config['MYSQL_HOST']=''
+app.config['MYSQL_USER']=''
+app.config['MYSQL_PASSWORD']=''
+app.config['MYSQL_DB']=''
 
 app.secret_key='mimi'
 def most_frequent(List):
